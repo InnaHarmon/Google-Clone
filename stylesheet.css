@@ -1,0 +1,107 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 12px;
+  font-family: arial, sans-serif;
+  margin:0;
+  padding: 0;
+}
+header{
+height: 50px;
+}
+footer{
+  height: 50px;
+  width:100%;
+  border-top: 1px solid #CCCCCC;
+  background-color: #f7f4f4;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+form{
+  margin-right: auto;
+  margin-left: auto;
+}
+/*links*/
+a {
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+/*classes*/
+
+.left{
+  float:left;
+}
+.right{
+  float:right;
+  margin-right: 15px;
+}
+.container {
+  border:red;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:100px;
+  margin-bottom: 210px;
+  width: 50%;
+
+}
+.search-bar{
+
+  width: 500px;
+  height: 40px;
+  display: block;
+  border: 1px solid #dbdbdb;
+  padding:5px;
+  font-size: 11pt;
+}
+
+.button {
+  display: inline;
+  margin: 30px auto 10px auto;
+  width: 125px;
+  height: 28px;
+  color: #777777;
+  font: bold 11px Arial;
+	border: 1px solid #d8d8d8;
+	background-color: #f3f3f3;
+	border-radius: 3px;
+	color: #444444;
+}
+.signin {
+  font-weight: bold;
+  font-family: arial;
+  font-size:13px;
+  color: white;
+  background-color: #4486f8;
+  padding: 10px 13px;
+  border-radius: 3px;
+  text-align: center;
+}
+/*images*/
+
+#grid{
+  display:inline-block;
+  height:23px;
+  width:23px;
+  vertical-align: middle;
+}
+
+#logo { /*google image*/
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+/*menu navigation*/
+
+li{
+  display: inline;
+  margin-left: 15px;
+}
